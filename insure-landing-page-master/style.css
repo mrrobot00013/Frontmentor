@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+img{
+    pointer-events: none;
+}
+
+nav{
+    width: 100%;
+    
+}
+
+.menu{
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    margin: auto;
+}
+nav ul{
+    margin-right: -180px;
+
+}
+
+nav li{
+    /* float: left; */
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color:hsl(273, 4%, 51%);
+    padding: 10px;
+    transition: ease-in-out .3s;
+    font-weight: 600;
+
+}
+
+nav li a:hover{
+    color: hsl(270, 9%, 17%);
+}
+.logo{
+    margin-left: -180px;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.hamburger{
+    display: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.nav-btn{
+    border: hsl(270, 9%, 17%) thin solid;
+    color: hsl(270, 9%, 17%);
+    padding: 7px 25px;
+    font-weight: 300;
+}
+
+.nav-btn:hover{
+    background-color: hsl(270, 9%, 17%);
+    color: white;
+}
+
+.intro{
+    width: 100%;
+    background-color:hsl(256, 26%, 20%);
+    position: relative;
+
+}
+.intro-inner{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin: auto;
+    
+}
+
+.left-intro-pattern{
+    position: absolute;
+    left: 0;
+    top: 500px;
+}
+.right-intro-pattern{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.right-intro-pattern-mob, .left-intro-pattern-mob{
+    display: none;
+}
+
+.intro-text{
+    width: 550px;
+    height: 400px;
+    position: relative;
+    color: white;
+    margin-top: 45px;
+ 
+}
+
+.intro-text::before{
+    content: "";
+    display: block;
+    width: 160px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top:0;
+}
+
+.intro-text h1{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 70px;
+    margin-top: 50px;  
+    
+}
+.intro-text h2{
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    margin-top: 30px;
+    line-height: 26px;
+}
+
+.intro-text button{
+    outline: none;
+    border: white 2px solid;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 8px 35px;
+    margin-top: 30px;
+    transition: ease-in-out .3s;
+}
+
+.intro-text button:hover{
+    background-color: white;
+    color: hsl(270, 9%, 17%);
+}
+
+.intro-img{
+    margin-top: 300px;
+}
+
+
+.info{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 350px;
+
+}
+
+.info-text::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 1px;
+    background-color: hsl(270, 9%, 17%);
+    opacity: 40%;
+}
+
+.info-text{
+    width: 1200px;
+    border: transparent solid;
+    font-family: 'DM Serif Display', serif;
+    color: hsl(270, 9%, 17%);
+    font-size: 35px;
+    margin: auto;
+
+}
+
+.info-text h1{
+    margin-top: 60px;
+    font-weight: 400;
+}
+
+.info-icons{
+    /* border: solid red; */
+    width: 1200px;
+    height: 350px;
+    margin: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px;
+
+}
+
+.icons{
+    width: 400px;
+    margin-top: 70px;
+}
+
+.icons h1{
+    font-family: 'DM Serif Display', serif;
+    color: hsl(270, 9%, 17%);
+    font-size: 30px;
+    margin-top: 15px;
+}
+.icons p{
+    font-family: 'Karla', sans-serif;
+    color: hsl(273, 4%, 51%);
+    line-height: 25px;
+    font-size: 16px;
+    margin-top: 15px;
+
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-top: 170px;
+}
+
+.banner-content{
+    width: 1200px;
+    height: 250px;
+    background: hsl(256, 26%, 20%);
+    margin:auto;
+    position: relative;
+
+
+}
+.banner-content img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.banner-content button{
+    outline: none;
+    border: white 2px solid;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 9px 35px;
+    margin-top: 30px;
+    float: right;
+    margin-top: 100px;
+    transition: ease-in-out .3s;
+}
+
+
+.banner-content button:hover{
+    background-color: white;
+    color: hsl(270, 9%, 17%);
+}
+
+.banner-content h1{
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size: 60px;
+    margin-top: 15px;
+    font-weight: 400;
+    line-height: 55px;
+    float: left;
+    margin-top: 60px;
+}
+.banner-inner{
+    width: calc(1200px - 200px);
+    height: unset;
+    margin: auto;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background: hsl(0, 0%, 98%);
+    position: relative;
+    margin-top: 100px;
+}
+.footer-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    padding: 20px;
+    border-bottom: thin solid rgba(0, 0, 0, 0.281);
+}
+
+.footer-icons img{
+    margin: 5px;
+}
+
+
+.footer-icons a{
+    font-size: 30px;
+}
+
+
+
+.footer-info{
+    width: 1230px;
+    height: 250px;
+    /* background: lime; */
+    margin: auto;
+    position: relative;
+    top: 70px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 250px;
+    grid-gap: 10px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+
+
+
+.footer-info-list h2{
+    font-size: 15px;
+    color: hsl(273, 4%, 51%);
+    line-height: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-info-list ul{
+    margin-top: 25px;
+}
+
+.footer-info-list ul li{
+    list-style: none;
+    letter-spacing: 1px;
+    color: hsl(270, 9%, 17%);
+    line-height: 35px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.footer-info-list ul li:hover{
+    text-decoration-line: underline;
+}

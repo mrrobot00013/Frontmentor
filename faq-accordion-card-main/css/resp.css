@@ -1,0 +1,139 @@
+@media screen and (max-width:1041px){
+    .center{
+        width: 800px;
+        height: 470px;
+    }
+    .item1, .item2, .item3, .item4, .item5{
+        width: 290px;
+    }
+}
+
+@media screen and (max-width:939px){
+    .center{
+        width: 750px;
+        height: 470px;
+    }
+    .item1, .item2, .item3, .item4, .item5{
+        width: 260px;
+        font-size: 13px;
+        left: -20px;
+    }
+}
+
+@media screen and (max-width:883px){
+    .center{
+        width: 650px;
+        height: 470px;
+    }
+
+    .left-content img{
+        left: -120px;
+    }
+
+    .item1, .item2, .item3, .item4, .item5{
+        width: 240px;
+        font-size: 12px;
+        left: -90px;
+    }
+}
+
+
+@media screen and (max-width:781px){
+    .center{
+        width: 375px;
+        height: 570px;
+    }
+
+    .left-content{
+    position: unset;
+    }
+
+    .left-content .woman{
+        display: none
+    }
+
+    .woman-resp{
+        display: block;
+        position: absolute;
+        top: -90px;
+        margin-left: 150px;
+        
+    }
+
+    .box{
+        display: none;
+    }
+    .center{
+        grid-template-rows: 150px 410px;
+        grid-template-columns: 375px;
+    }
+
+    .item1, .item2, .item3, .item4, .item5{
+        width: 320px;
+        font-size: 13px;
+                
+    }
+    .intro{
+        left: calc(320px / 2.1);
+        top: 20px;
+    }
+
+    .list{
+        top: 90px;
+        right: -70px;
+    }
+}
+
+@media screen and (max-width:385px){
+
+    .item1, .item2, .item3, .item4, .item5{
+        width: 250px;
+        font-size: 12px;
+                
+    }
+
+    .list{
+        right: 10px;
+    }
+
+    .woman-resp{
+        margin-left: 125px;
+    }
+
+    .intro{
+        left: 115px;
+    }
+
+    .center{
+        width: 300px;
+        height: 570px;
+    }
+
+}
+
+@media screen and (max-width:293px){
+    .item1, .item2, .item3, .item4, .item5{
+        width: 200px;
+        font-size: 10px;
+                
+    }
+
+    .list{
+        right: 70px;
+        top: 70px;
+    }
+
+    .woman-resp{
+        margin-left: 90px;
+    }
+
+    .intro{
+        left: 80px;
+    }
+
+    .center{
+        width: 230px;
+        height: 570px;
+    }
+
+}
